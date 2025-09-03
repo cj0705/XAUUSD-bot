@@ -17,8 +17,8 @@ PERIOD = "7d"
 CHECK_INTERVAL = 300  # seconds
 
 # ===== TELEGRAM =====
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+BOT_TOKEN = os.getenv("8277096616:AAEe6LrJ1NFoxAfijFJCoRa4FPo4zFDe7hQ")
+CHAT_ID = os.getenv("6838752300")
 
 if not BOT_TOKEN or not CHAT_ID:
     raise Exception("Please set BOT_TOKEN and CHAT_ID as environment variables.")
